@@ -31,9 +31,8 @@ function App() {
         {/* <User /> */}
         <div className="containerr">
           <ul className="wrapper">
-            {people.map((person, i) => {
-              <SingleUser person={person} key={i} />;
-            })}
+            {people.map((person, i) => 
+              (<SingleUser person={person} key={i} />))}
           </ul>
         </div>
       </div>

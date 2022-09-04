@@ -5,7 +5,7 @@ li {
 nav>ul {
   width: 40%;
   margin: 0 auto;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;

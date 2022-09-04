@@ -7,5 +7,17 @@
 }
 .container {
   width: 100%;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+.wrapper {
+  background-color: #ccc;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.wrapper {
+  /* background-color: olive; */
+  height: 60vh;
 }
